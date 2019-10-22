@@ -21,4 +21,4 @@ class BasicsTestCase(unittest.TestCase):
         def test_app_is_testing(self):
             self.assertTrue(current_app.config['TESTING'])
 
-            #66666
+            #66666999

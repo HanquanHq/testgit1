@@ -20,7 +20,7 @@ manager = Manager(app)
 # 第一个参数是flask实例，第二个参数SQLAlchemy实例
 Migrate(app, db)
 
-#manager是Flask-Script的实例，这条语句在flask-Script中添加一个db命令
+#manager是Flask-Script的实例，这条语句在flask-Script中添加一个db命令哈哈哈
 manager.add_command("db", MigrateCommand)
 
 
